@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rougecoin-project/rougee-2025/blob/main/LICENSE"><img src="https://img.shields.io/github/license/rougecoin-project/rougee" alt="License"></a>
+  <a href="https://github.com/rougecoin-project/rougee-2025/main/LICENSE"><img src="https://img.shields.io/github/license/rougecoin-project/rougee" alt="License"></a>
   <a href="#"><img src="https://img.shields.io/github/stars/rougecoin-project/rougee-2025?style=social" alt="Stars"></a>
 </p>
 
