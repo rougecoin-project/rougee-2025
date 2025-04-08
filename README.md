@@ -1,154 +1,104 @@
 # RouGee Platform
 
 <p align="center">
-  <img src="docs/images/logo.png" alt="RouGee Logo" width="200"/>
+  <img src="docs/assets/logo.png" alt="RouGee Logo" width="200"/>
 </p>
 
 <p align="center">
-  <strong>A decentralized social media platform powered by RougeCoin (XRGE)</strong>
+  <a href="https://github.com/rougecoin-project/rougee/blob/main/LICENSE"><img src="https://img.shields.io/github/license/rougecoin-project/rougee" alt="License"></a>
+  <a href="#"><img src="https://img.shields.io/github/stars/rougecoin-project/rougee?style=social" alt="Stars"></a>
 </p>
 
-<p align="center">
-  <a href="https://rougecoin.xyz">Website</a> •
-  <a href="#features">Features</a> •
-  <a href="#roadmap">Roadmap</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a>
-</p>
+## 🌐 Vision
 
-## Overview
+RouGee is a decentralized social media platform that embodies the cyberpunk ethos of digital sovereignty, fair creator compensation, and freedom from algorithmic manipulation. Powered by RougeCoin (XRGE), RouGee puts users and creators first in a world where big tech companies continue to exploit user data and control content distribution.
 
-RouGee is a next-generation decentralized social media platform that embodies the cyberpunk ethos of digital sovereignty, fair compensation for creators, and freedom from surveillance capitalism.
+## ✨ Features
 
-Built on blockchain technology and powered by RougeCoin (XRGE), RouGee creates a space where:
+- **Creator-Owned Content** - Full ownership and monetization of your content without platform interference
+- **Direct Monetization** - Receive XRGE tokens directly from followers and supporters
+- **Decentralized Identity** - True ownership of your digital presence and data
+- **No Algorithmic Manipulation** - Content reaches followers without shadow banning or throttling
+- **Community Governance** - XRGE token holders vote on platform features and policies
+- **Censorship Resistance** - True freedom of expression within legal boundaries
 
-- Users own their data and digital identity
-- Content creators receive direct compensation without middlemen
-- Community governance determines platform policies
-- Authentic connections thrive without algorithmic manipulation
+## 🗺️ Roadmap
 
-## Features
+| Phase | Timeline | Goals |
+|-------|----------|-------|
+| 1: Foundation | Q2 2025 | Repository setup, documentation, architecture design |
+| 2: MVP | Q3 2025 | Basic UI/UX, content posting, profile management |
+| 3: Tokenomics | Q4 2025 | XRGE integration, monetization features, tipping |
+| 4: Governance | Q1 2026 | Community voting, proposal system, moderation tools |
+| 5: Scale | Q2 2026 | Mobile applications, additional features, partnerships |
 
-### For Users
+## 🚀 Getting Started
 
-- **True Data Ownership**: Complete control over your personal information
-- **Ad-Free Experience**: No intrusive advertising or tracking
-- **Direct Creator Support**: Tip and subscribe to creators with XRGE tokens
-- **Uncensored Timeline**: See content from accounts you follow without algorithmic filtering
-- **Enhanced Privacy**: End-to-end encrypted messaging and privacy controls
-
-### For Creators
-
-- **Direct Monetization**: Earn XRGE tokens directly from followers and supporters
-- **Content Ownership**: Maintain full rights to your content with optional tokenization
-- **Transparent Analytics**: Clear insights on engagement without hidden metrics
-- **Community Building**: Tools to engage with supporters on your terms
-- **Censorship Resistance**: Protection from arbitrary content removal
-
-## Architecture
-
-RouGee is built on a hybrid architecture:
-
-- **Frontend**: React.js web application and React Native mobile apps
-- **Backend**: Decentralized storage via IPFS with centralized caching for performance
-- **Blockchain**: Ethereum-based smart contracts for XRGE token integration
-- **Identity**: Self-sovereign identity system with optional anonymity
-
-## Roadmap
-
-### Phase 1: Foundation (Current)
-
-- ✅ Project structure and documentation
-- ✅ Community building and initial contributor onboarding
-- ⚙️ Technical architecture design
-- ⚙️ UI/UX prototyping
-- ⚙️ Smart contract framework
-
-### Phase 2: MVP Development
-
-- Basic profile creation and management
-- Content posting and interaction
-- XRGE token integration for tipping
-- Web application deployment
-- Initial testing and feedback
-
-### Phase 3: Feature Expansion
-
-- Direct monetization tools for creators
-- Decentralized identity implementation
-- Enhanced content discovery
-- Mobile application release
-- Community governance mechanisms
-
-### Phase 4: Full Launch
-
-- Cross-platform integration
-- Advanced privacy features
-- Scalability improvements
-- Developer API and third-party integration
-- Full governance handover to the community
-
-## Getting Started
+RouGee is in early development. Here's how you can get involved:
 
 ### Prerequisites
 
-- Node.js (v16+)
-- Yarn or npm
-- MetaMask or compatible Ethereum wallet
-- Basic understanding of React and Web3 technologies
+- Node.js (v18 or later)
+- npm or yarn
+- Ethereum wallet (for XRGE interactions)
 
 ### Installation
 
 ```bash
 # Clone the repository
 git clone https://github.com/rougecoin-project/rougee.git
+
+# Navigate to the project directory
 cd rougee
 
 # Install dependencies
-yarn install
-
-# Copy the example environment file
-cp .env.example .env
-# Edit .env with your configuration
+npm install
 
 # Start the development server
-yarn dev
+npm run dev
 ```
 
-Visit `http://localhost:3000` to view the application.
+## 🤝 Contributing
 
-## Contributing
+We welcome contributions from developers of all skill levels! Check out our [Contributing Guide](CONTRIBUTING.md) for more information on how to get started.
 
-We welcome contributions from developers of all skill levels! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
+## 📝 Documentation
 
-Areas where we need help:
+Detailed documentation is available in the [docs](docs) directory:
 
-- Frontend development (React.js)
-- Smart contract development (Solidity)
-- Backend infrastructure
-- UI/UX design
-- Documentation and tutorials
-- Community moderation and support
+- [Architecture Overview](docs/architecture.md)
+- [API Reference](docs/api-reference.md)
+- [Smart Contract Integration](docs/smart-contracts.md)
+- [UI Component Library](docs/ui-components.md)
 
-## Community
+## 💰 Tokenomics
 
-Join our community channels:
+RouGee is powered by RougeCoin (XRGE), an Ethereum token that enables:
+
+- Content monetization
+- Platform governance
+- Premium feature access
+- Community rewards
+
+Learn more about [RougeCoin tokenomics](docs/tokenomics.md).
+
+## 📱 Community
 
 - [Discord](https://discord.gg/7GvpcTS3Mj)
 - [Telegram](https://t.me/rougecoinv3)
 - [Twitter](https://x.com/rougecoin)
+- [Website](https://rougecoin.xyz)
 
-## License
+## 📄 License
 
-RouGee is released under the [MIT License](LICENSE).
+RouGee is open source software licensed under the [MIT License](LICENSE).
 
-## About RougeCoin (XRGE)
+## 🔒 Security
 
-RougeCoin is the utility token that powers the RouGee platform. It features:
+If you discover a security vulnerability, please send an email to security@rougee.io instead of opening a public issue.
 
-- 100% permanently locked liquidity
-- Built on Ethereum blockchain
-- Used for creator payments, governance, and platform features
+## 🙏 Acknowledgments
 
-Learn more at [rougecoin.xyz](https://rougecoin.xyz).
+- The cyberpunk and cypherpunk communities for their inspiration
+- OpenZeppelin for their secure smart contract libraries
+- The entire RougeCoin community for their ongoing support
