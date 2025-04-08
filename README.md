@@ -12,6 +12,24 @@
 
 > *"In a world where your data is the product, RouGee makes your content the value."*
 
+## Table of Contents
+
+- [Vision](#-vision)
+- [Features](#-features)
+  - [Phase 1 (MVP)](#phase-1-mvp)
+  - [Phase 2](#phase-2)
+  - [Phase 3](#phase-3)
+  - [Phase 4](#phase-4)
+- [Technical Architecture](#-technical-architecture)
+- [Getting Started](#-getting-started)
+- [Contributing](#️-contributing)
+- [Project Status](#-project-status)
+- [Roadmap](#-roadmap)
+- [Team](#-team)
+- [Security](#-security)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+
 ## 🌐 Vision
 
 In the current digital landscape, centralized social media giants exploit users through surveillance capitalism, algorithmic manipulation, and content censorship. RouGee offers an alternative vision:
